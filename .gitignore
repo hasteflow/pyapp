@@ -1,0 +1,15 @@
+# ignore all hidden files
+.*
+
+# except
+!.gitignore
+!.gitkeep
+
+# ignore database files
+*.sqlite3
+
+# ignore log files
+*.log
+
+# ignore cache files
+__pycache__/

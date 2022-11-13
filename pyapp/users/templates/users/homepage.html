@@ -1,0 +1,12 @@
+{% extends "users/main/content_page.html" %}
+{% load socialaccount %}
+{% block content %}
+    <div class="content-section">
+        {% if user.is_authenticated %}
+            <p name="homepage_greeting">Hello {{user}}! You are logged in. <a href="{% url 'users:logout' %}">log out</a></p>
+            <p>Now that you are here, you can access the <a href="{% url 'users:secret_area' %}">secret area</a>! </p>
+        {% else %}
+            <p>Hello {{user}}! You are not logged in. Please <a href="{% url 'users:login' %}">log in</a></p>
+        {% endif %}
+    </div>
+{% endblock content %}
