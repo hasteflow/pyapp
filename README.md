@@ -30,48 +30,48 @@
 
 ## Project structure
 
-├── poetry.lock
-├── poetry.toml
-├── pyapp
-│   ├── db.sqlite3
-│   ├── functional_tests
-│   │   └── test_user_login.py
-│   ├── geckodriver.log
-│   ├── iam_app
-│   │   ├── asgi.py
-│   │   ├── __init__.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   ├── manage.py
-│   └── users
-│       ├── admin.py
-│       ├── apps.py
-│       ├── decorators.py
-│       ├── forms
-│       │   ├── __init__.py
-│       │   ├── user_login_form.py
-│       │   └── user_registration_form.py
-│       ├── __init__.py
-│       ├── migrations
-│       │   ├── __init__.py
-│       ├── models.py
-│       ├── templates
-│       │   └── users
-│       │       ├── homepage.html
-│       │       ├── login.html
-│       │       ├── logout.html
-│       │       ├── main
-│       │       │   └── content_page.html
-│       │       ├── register.html
-│       │       └── secret_area.html
-│       ├── tests
-│       │   ├── __init__.py
-│       │   ├── test_user_forms.py
-│       │   └── test_user_views.py
-│       ├── urls.py
-│       └── views.py
-├── pyproject.toml
-├── README.md
-└── tests
-    └── __init__.py
+    ├── poetry.lock
+    ├── poetry.toml
+    ├── pyapp
+    │   ├── db.sqlite3
+    │   ├── functional_tests
+    │   │   └── test_user_login.py
+    │   ├── geckodriver.log
+    │   ├── iam_app
+    │   │   ├── asgi.py
+    │   │   ├── __init__.py
+    │   │   ├── settings.py
+    │   │   ├── urls.py
+    │   │   └── wsgi.py
+    │   ├── manage.py
+    │   └── users
+    │       ├── admin.py
+    │       ├── apps.py
+    │       ├── decorators.py
+    │       ├── forms
+    │       │   ├── __init__.py
+    │       │   ├── user_login_form.py
+    │       │   └── user_registration_form.py
+    │       ├── __init__.py
+    │       ├── migrations
+    │       │   ├── __init__.py
+    │       ├── models.py
+    │       ├── templates
+    │       │   └── users
+    │       │       ├── homepage.html
+    │       │       ├── login.html
+    │       │       ├── logout.html
+    │       │       ├── main
+    │       │       │   └── content_page.html
+    │       │       ├── register.html
+    │       │       └── secret_area.html
+    │       ├── tests
+    │       │   ├── __init__.py
+    │       │   ├── test_user_forms.py
+    │       │   └── test_user_views.py
+    │       ├── urls.py
+    │       └── views.py
+    ├── pyproject.toml
+    ├── README.md
+    └── tests
+        └── __init__.py
